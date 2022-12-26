@@ -17,6 +17,6 @@ with args.logfile as input:
 # Store traffic IP in a csv file
     with open("Traffic_IP.csv", "w") as input:
         fwritercsv = csv.writer(input)
-        fwritercsv.writerow(["IP_Address", "Count"])
+        fwritercsv.writerow(["IP_Address |", "| Occurrence"])
         for k, v in Counter(ip_list).items():
             fwritercsv.writerow([k, v])
