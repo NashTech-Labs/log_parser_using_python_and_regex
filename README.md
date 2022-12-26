@@ -17,7 +17,7 @@ etc.
 # Output
 A new file named * Traffic_IP.csv * with contents </br>
 ```
-IP_Address,Count
+IP_Address |,| Occurrence
 107.0.0.0,5
 127.0.0.1,2
 127.0.0.0,1
